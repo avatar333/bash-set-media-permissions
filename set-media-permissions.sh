@@ -10,3 +10,8 @@
 #==============================================================================
 
 
+chown -R kevinp:kevinp /mnt/src*
+
+setfacl -R -m g:plex:rwx /mnt/src*
+
+chmod 775 -R /mnt/src*
